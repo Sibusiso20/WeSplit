@@ -10,19 +10,27 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Form{
-        Text("Hello, world!")
-        Text("Hello, world!")
             Text("Hello, world!")
             Text("Hello, world!")
             Text("Hello, world!")
             Text("Hello, world!")
             Text("Hello, world!")
-            
+        }
+            Form{
+                Section {
+                    Text("Hello World")
+                }
+                
+                Section {
+                    Text("Hello World")
+                    Text("Hello World")
+                }
+            }
             
         }
-            .padding()
+            //.padding()
     }
-}
+
 
 
 
